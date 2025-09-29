@@ -1,12 +1,13 @@
 #include<stdio.h>
 int main(){
-    for(int i = 1 ; i <= 9 ; i+=2)
+    int n = 5;
+    for(int i = 1 ; i <= n*2-1 ; i+=2)
     {
-        for(int j = 7 ; j >= i ; j-=2)
-        printf("  ");
+        for(int j =n*2-3  ; j >= i ; j-=2)
+        printf("@ ");
         
         for(int k = 1 ; k <= i ; k++)
-        printf("%d ",k);
+        printf("%c ",'A'+k-1);
 
         printf("\n");
     }

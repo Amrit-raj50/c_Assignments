@@ -1,7 +1,8 @@
 #include <stdio.h>
 int main(){
+    int n = 7;
     int c=65;
-    for(int i = 1 ; i <= 5 ; i++)
+    for(int i = 1 ; i <= n ; i++)
     {
         for(int j = i ; j >= 1; j--)
         {

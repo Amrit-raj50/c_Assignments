@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main(){
-    for(int i = 69 ; i >= 65 ; i--)
+    int n = 5;
+    for(int i = 65+n-1 ; i >= 65 ; i--)
     {
         for(int j = 65 ; j <= i ; j++)
         printf("%c ",j);

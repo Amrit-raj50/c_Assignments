@@ -1,11 +1,20 @@
 #include <stdio.h>
 int main(){
-    int c=15;
+    int n = 5;
+
+    // for(int i = 1 ; i <= n ; i++)
+    int c = n*(n+1)/2;
+
     for(int i = 1 ; i <= 5 ; i++)
     {
-        for(int j = 1 ; j <= i ; j++)
-        printf("%d ",c--);
-
+        for(int j = 1 ; j <= i ; j++) 
+        {
+            if(c % 10 == c)
+            printf("%d  ",c--);
+            else
+            printf("%d ",c--);
+        }
         printf("\n");
     }
+    return 0;
 }

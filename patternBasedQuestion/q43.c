@@ -1,13 +1,13 @@
 #include <stdio.h>
 int main(){
-    int n = 4;
+    int n = 5;
     for(int i = 1 ; i <= n ; i++)
     {
-        for(int j = 1 ; j <= 7 ; j++)
+        for(int j = 1 ; j <= n+3 ; j++)
         {
             if(i == 1|| i == n)
             printf("%d",j);
-            else if(j == 1 || j == 7)
+            else if(j == 1 || j == n+3)
             printf("%d",j);
             else
             printf(" ");
